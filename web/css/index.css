@@ -1,5 +1,5 @@
 body {
-    background: url('images/checkers.png');
+    background: url('../images/checkers.png');
     animation: scrolling 5s infinite;
     overflow: scroll;
     overflow-x: hidden;
