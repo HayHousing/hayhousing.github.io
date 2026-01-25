@@ -1,0 +1,17 @@
+* {
+    color: red;
+    text-align: center;
+}
+@font-face {
+    font-family: OpenDyslexic;
+    src: url("../fonts/odys.otf");
+}
+body {
+    background-color: black;
+}
+#rnotice, #rtitle {
+    font-family: "Open Sans", sans-serif;
+}
+#dnotice, #dtitle {
+    font-family: "OpenDyslexic";
+}
