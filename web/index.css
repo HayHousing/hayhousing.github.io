@@ -1,0 +1,143 @@
+body {
+    background: url('images/checkers.png');
+    animation: scrolling 5s infinite;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.com {
+    font-size: 50px;
+text-align: center;
+color: #fff;
+margin-top: 250px;
+margin-left: 40%;
+}
+
+.abt {
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.5;
+    margin-left: 57%;
+}
+
+.proj1 {
+    color: #fff;
+    height:420px;
+    width:350px;
+    background: none;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1)rgba(255,255,255,0));
+    border: 1px solid rgba(255,255,2555,0.18);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,37);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    animation:pop-in 0.5s ease;
+    margin-left: 37%;
+}
+
+.download1 {
+    display: block;
+    height: 30px;
+    width: 300px;
+    padding: 20px 0px 20px 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 15px;
+    align-items: center;
+    background: rgb(205,125,255);
+    background: -moz-linear-gradient(90deg, rgba(205,125,255,1) 0%, rgba(61,0,135,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(205,125,255,1) 0%, rgba(61,0,135,1) 100%);
+    background: linear-gradient(90deg, rgba(205,125,255,1) 0%, rgba(61,0,135,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cd7dff",endColorstr="#3d0087",GradientType=1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px 0 rgba(158,0,255,1);
+    background-size: 300%;
+    background-position: left;
+    text-align: center;
+    font-size: 25px;
+    color: mintcream;
+    text-decoration: none;
+    transition: background-position 1s ease-in-out;
+    transition: all 1s ease-out;
+    animation: pop-in 0.6s ease-in-out forwards;
+    position: absolute;
+}
+
+.proj1a {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pfp {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-left: 143.9px;
+}
+
+.proj1p {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.proj1cred {
+    text-align: center;
+}
+
+.proj1abt {
+    text-align: center;
+}
+
+.bimg {
+    animation: rotation 2s infinite;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 4px 12px #fff;
+}
+
+.protxt {
+    margin-right: 26.5%;
+    text-align: center;
+    color: white;
+}
+
+.footerreal {
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@keyframes scrolling {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -140px 140px;
+    }
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+@keyframes boxanim {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
